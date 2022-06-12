@@ -319,5 +319,15 @@ hr {
 .left-about-heading p, .right-about-heading p {
     text-align: center;
 }
+
+#photos {
+    column-count: 3;
+}
 }
 
+/*For small screens sizes 800px and down*/
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
+}
